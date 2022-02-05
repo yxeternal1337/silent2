@@ -1,4 +1,4 @@
-f getgenv().Aiming then return getgenv().Aiming end
+if getgenv().Aiming then return getgenv().Aiming end
 
 -- // Services
 local Players = game:GetService("Players")
@@ -38,7 +38,7 @@ getgenv().Aiming = {
     Enabled = true,
 
     ShowFOV = false,
-    FOV = 80,
+    FOV = 50,
     FOVSides = 300,
     FOVColour = Color3fromRGB(255, 255, 255),
 
